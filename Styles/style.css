@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #ff42a5;
+  --secondery-color: #4ec5f7;
+  --black: #0b0223;
+  --text-color: #534c64;
+  --yt-color: #f61c0d;
+}
+
+.fixed-width {
+  width: 1300px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header css start */
+/* nav CSS start */
+.header {
+  background-color: #fff;
+  box-shadow: 1px 10px 10px #e3e3e3;
+}
+nav {
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+}
+.logo h3 {
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--black);
+}
+.logo h3 span {
+  color: var(--primary-color);
+}
+
+.menu {
+}
+.menu > ul {
+}
+.menu li {
+  margin-left: 30px;
+  display: inline-block;
+}
+.menu li a {
+  color: var(--black);
+  padding: 10px 30px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.menu li:last-child a {
+  background-color: rgba(11, 2, 35, 0.1);
+}
+.menu li a i {
+  font-size: 20px;
+  margin: 0px 3px;
+}
+.menu li a i:nth-child(1) {
+  color: var(--yt-color);
+}
+
+/* banner section start */
+.banner {
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.banner-left {
+}
+.banner-left h3 {
+}
+.banner-left h1 {
+}
+.banner-img-box {
+}
+.banner-img-box img {
+}
+.banner-img-box span {
+}
+
+.banner-left button {
+}
+
+.banner-right {
+}
+.banner-right img {
+}
