@@ -44,6 +44,12 @@ body {
   color: var(--white);
   cursor: pointer;
 }
+.primary-btn :hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: 0.3s all ease-in-out;
+}
 .secondery-btn {
   background-color: var(--secondery-color);
   padding: 15px 40px;
@@ -68,7 +74,9 @@ button {
 /* nav CSS start */
 .header {
   background-color: #fff;
-  box-shadow: 1px 10px 10px #e3e3e3;
+  box-shadow: 1px 10px 10px #e3e3e342;
+  position: sticky;
+  top: 0px;
 }
 nav {
   padding: 30px 0px;
@@ -164,6 +172,57 @@ nav {
   width: 90%;
 }
 
+/* about us CSS */
+
+.about {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 50px;
+}
+.about-us {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.about-img {
+}
+.about-img img {
+  padding-right: 50px;
+}
+.about-content {
+  text-align: right;
+}
+.about-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-content p {
+  color: var(--text-color);
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.about-content button {
+  text-align: end;
+  margin-bottom: 25px;
+}
+.about-content span {
+  display: block;
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.about-content h3 {
+  color: #534c64;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
 /* online video CSS */
 
 .online {
@@ -214,7 +273,8 @@ nav {
   visibility: hidden;
   transition: 0.3s all ease-in-out;
 }
-.hover-box img {
+.hover-box .box h4 {
+  color: var(--primary-color);
 }
 .hover-box h4 {
   font-size: 20px;
@@ -224,4 +284,158 @@ nav {
   visibility: visible;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
+}
+
+/* game theme section */
+
+.game-theme {
+  padding-bottom: 120px;
+}
+.game-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.game-left {
+  text-align: right;
+  padding-right: 20%;
+}
+.game-left h3 {
+  color: var(--black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+.game-left h3 span {
+  color: var(--primary-color);
+}
+.game-left p {
+  color: var(--text-color);
+  font-size: 18px;
+}
+.game-right {
+  position: relative;
+  text-align: end;
+}
+.game-right img {
+  width: 85%;
+}
+.game-right-img {
+  position: absolute;
+  width: 300px !important;
+  left: -50px;
+  bottom: -55px;
+}
+
+/* game type CSS */
+
+.game-type {
+  padding: 120px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.game-type-data {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+.game-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--white);
+  border-radius: 50px;
+  border: 1px solid var(--white);
+}
+.game-box:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transition: 0.3s all ease-in-out;
+}
+.game-box img {
+  width: 40px;
+  margin-right: 10px;
+}
+.game-box span {
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+/* footer CSS start */
+
+footer {
+  padding: 120px 0px;
+  background: #0b0223;
+  text-align: center;
+}
+.footer-box-one {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+.footer-box-one img {
+  margin-right: 10px;
+}
+.footer-box-one h1 {
+  color: var(--white);
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-box-one h1 span {
+  color: var(--primary-color);
+}
+.footer-box-two {
+  margin-bottom: 50px;
+}
+.footer-box-two ul {
+}
+.footer-box-two ul li {
+  display: inline-block;
+}
+.footer-box-two ul li a {
+  display: inline-block;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+.footer-box-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-box-three img {
+  width: 30px;
+  margin: 0px 12px;
+}
+.footer-box-four {
+  margin-top: 50px;
+}
+.footer-box-four li {
+  display: inline-block;
+}
+.footer-box-four li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px;
+}
+.footer-box-five {
+  text-align: center;
+  margin-top: 10px;
+}
+.footer-box-five span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
 }
