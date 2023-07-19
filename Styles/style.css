@@ -163,3 +163,65 @@ nav {
 .banner-right img {
   width: 90%;
 }
+
+/* online video CSS */
+
+.online {
+  padding: 120px 0px;
+}
+.online-content {
+  text-align: center;
+}
+.online-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--black);
+}
+.online-content p {
+  font-size: 18px;
+  margin-top: 18px;
+  color: var(--text-color);
+}
+
+.online-video {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.online-box {
+  position: relative;
+}
+.online-box img {
+}
+.online-box p {
+}
+
+.hover-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 90%;
+  width: 100%;
+  border-radius: 15px;
+  background: #00000073;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all ease-in-out;
+}
+.hover-box img {
+}
+.hover-box h4 {
+  font-size: 20px;
+}
+.online-video > :hover .hover-box {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
