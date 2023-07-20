@@ -1,7 +1,125 @@
 @media only screen and (max-width: 992px) {
   .fixed-width {
     width: 100% !important;
-    margin: auto;
+  }
+  .menu li {
+    margin-left: 0px !important;
+  }
+  .menu li a {
+    padding: 10px !important;
+  }
+  .menu {
+    margin-top: 10px !important;
+  }
+  nav {
+    flex-direction: column;
+  }
+
+  /* banner responsive */
+  .banner {
+    padding: 50px 30px !important;
+    background-size: cover !important;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    text-align: center !important;
+  }
+  .banner-left {
+    width: 100% !important;
+    margin-top: 80px !important;
+  }
+  .banner-right {
+    width: 100% !important;
+  }
+  .banner-right img {
+    width: 100% !important;
+  }
+  .banner-left h1 {
+    font-size: 75px !important;
+    text-align: center !important;
+  }
+  .banner-left h3 {
+    font-size: 35px !important;
+    text-align: center !important;
+  }
+  .banner-img-box span {
+    font-size: 16px !important;
+  }
+  .banner-img-box {
+    margin-left: 50px !important;
+  }
+  .primary-btn {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+  .secondery-btn {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+  /* about section */
+  .about {
+    padding: 0px 30px !important;
+    padding-bottom: 80px !important;
+  }
+  .about-us {
+    flex-direction: column;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .about-content {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .about-img img {
+    padding-right: 0px !important;
+  }
+
+  .about-content h1 {
+    font-size: 35px !important;
+  }
+  .about-content h3 {
+    font-size: 21px !important;
+  }
+
+  /* online video game */
+
+  .online-video {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .online {
+    padding: 90px 45px !important;
+  }
+
+  /* game theme */
+
+  .game-theme {
+    padding: 0px 30px !important;
+    padding-bottom: 130px !important;
+  }
+  .game-main {
+    grid-template-columns: 1fr !important;
+  }
+  .game-right-img {
+    width: 220px !important;
+    left: 100px !important;
+    bottom: -60px !important;
+  }
+  .game-right-img1 {
+    width: 70% !important;
+  }
+  .game-left {
+    text-align: center !important;
+  }
+  .game-left h3 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .game-left {
+    padding-right: 0px !important;
+  }
+  .game-left p {
+    margin-bottom: 50px !important;
   }
 }
 
@@ -102,8 +220,11 @@
     font-size: 25px !important;
   }
   .hover-box {
-    height: 89% !important;
-    width: 97% !important;
+    height: 95% !important;
+    width: 100% !important;
+  }
+  .online-box img {
+    width: 100% !important;
   }
   .online-box {
     width: 100% !important;
