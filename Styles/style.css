@@ -337,6 +337,38 @@ nav {
   bottom: -80px;
 }
 
+/* careers section css */
+
+/* .careers {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding-left: 300px;
+}
+.careers-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.careers-content {
+}
+.careers-content h3 {
+}
+.careers-content p {
+}
+.careers-inner {
+  display: flex;
+}
+.careers-box {
+}
+.careers-box ul {
+}
+.careers-box ul li {
+}
+.careers-img {
+  padding: 120px 0;
+}
+.careers-img img {
+} */
+
 /* game type CSS */
 
 .game-type {
@@ -373,6 +405,10 @@ nav {
 .game-box span {
   color: var(--text-color);
   font-size: 18px;
+}
+.game-box:hover span {
+  color: var(--primary-color);
+  transition: 0.3s all ease-in-out;
 }
 
 /* footer CSS start */
